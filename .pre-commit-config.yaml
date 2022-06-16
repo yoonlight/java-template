@@ -3,6 +3,10 @@ ci:
         [pre-commit.ci] auto fixes from pre-commit.com hooks
         for more information, see https://pre-commit.ci
   autofix_prs: true
+  skip:
+    - "gradle-check"
+    - "gradle-build"
+    - "pretty-format-java"
 
 # See https://pre-commit.com for more information
 # See https://pre-commit.com/hooks.html for more hooks
